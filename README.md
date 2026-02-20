@@ -33,7 +33,8 @@ cp -r /tmp/claude-code-codex-review/skills/codex-review ~/.claude/skills/
 
 ```bash
 # From your project root
-cp -r /path/to/claude-code-codex-review/skills/codex-review .claude/skills/
+git clone https://github.com/bszymi/claude-code-codex-review /tmp/claude-code-codex-review
+cp -r /tmp/claude-code-codex-review/skills/codex-review .claude/skills/
 ```
 
 ## Usage
